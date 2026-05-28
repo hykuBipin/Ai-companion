@@ -124,13 +124,21 @@ document.addEventListener('DOMContentLoaded', () => {
         textInput.style.height = '50px';
         status.textContent = "Thinking...";
 
+        // Extract selected voice language
+        const selectedVoiceOption = voiceSelect.selectedOptions[0];
+        const selectedLang = selectedVoiceOption ? selectedVoiceOption.getAttribute('data-lang') : 'en-US';
+
         try {
             const response = await fetch('/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ message: message, session_id: sessionId }),
+                body: JSON.stringify({ 
+                    message: message, 
+                    session_id: sessionId,
+                    language: selectedLang
+                }),
             });
 
             if (!response.ok) {

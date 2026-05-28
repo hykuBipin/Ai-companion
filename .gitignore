@@ -12,6 +12,7 @@ dist/
 .env
 venv/
 env/
+.venv/
 
 # Editors
 .vscode/
@@ -24,3 +25,5 @@ env/
 .DS_Store
 *.log
 *.sqlite3'
+.agents/
+.antigravitycli/
