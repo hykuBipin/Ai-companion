@@ -95,11 +95,21 @@ Your main purpose is to brighten up the user's day with your charming and playfu
 
 ## 🎥 Demo & Evidence
 
-A video demonstration of this AI Companion has been successfully recorded and added as official evidence of completion.
+Below is the official visual evidence of the completed and fully functional **Mayurika AI Companion**.
 
-- **Demo Video Path**: `/Users/bipin/Desktop/AI-COMPANION-FINAL.mov` (Local System)
+### 🖼️ UI Demonstration
 
-*The video showcases the interactive UI, real-time speech responses, lip-sync functionality using the generated anime avatar, and real-time Google Search grounding.*
+Here is the interactive chat interface showing the custom-generated avatar, active lip-sync, and backend LLM integration:
+
+![Mayurika AI Companion Demo](DEMO-AI-COMPANION.png)
+
+### 📹 Interactive Video Walkthrough
+
+A high-quality demo video demonstrating real-time voice, speech synthesis, active lip-syncing, and real-time Google Search grounding has been committed to the repository:
+
+- **Interactive Demo Video**: [AI-Companion-Mayurika-demo.mov](AI-Companion-Mayurika-demo.mov)
+
+*The video showcases Mayurika responding playfully, with real-time lip-sync using her custom generated character states, and pulling recent information via internet-grounded search.*
 
 ---
 
